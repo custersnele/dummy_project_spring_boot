@@ -25,7 +25,11 @@ public class Message {
         return id;
     }
 
-    public String getText() {
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getText() {
         return text;
     }
 

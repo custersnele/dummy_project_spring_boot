@@ -1,4 +1,4 @@
-package be.pxl.examen;
+package be.pxl.examen.serivce;
 
 import be.pxl.examen.dao.MessageDao;
 import be.pxl.examen.service.MessageService;

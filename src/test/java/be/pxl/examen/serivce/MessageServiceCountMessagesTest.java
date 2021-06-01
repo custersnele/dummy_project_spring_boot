@@ -20,7 +20,7 @@ public class MessageServiceCountMessagesTest {
 	private MessageService messageService;
 
 	@Test
-	public void returnsNumberOfCountedDroneflights() {
+	public void returnsNumberOfMessages() {
 		when(messageDao.count()).thenReturn(5L);
 
 		assertEquals(5L, messageService.countMessages());

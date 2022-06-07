@@ -1,7 +1,6 @@
 package be.pxl.examen.service;
 
-import be.pxl.examen.dao.MessageDao;
-import be.pxl.examen.model.Message;
+import be.pxl.examen.repository.MessageRepository;
 import be.pxl.examen.rest.resources.MessageDTO;
 import org.springframework.stereotype.Service;
 
@@ -11,9 +10,9 @@ import java.util.stream.Collectors;
 @Service
 public class MessageService {
 
-	private final MessageDao messageDao;
+	private final MessageRepository messageDao;
 
-	public MessageService(MessageDao messageDao) {
+	public MessageService(MessageRepository messageDao) {
 		this.messageDao = messageDao;
 	}
 

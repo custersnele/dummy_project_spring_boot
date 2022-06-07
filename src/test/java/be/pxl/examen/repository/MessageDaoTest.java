@@ -1,4 +1,4 @@
-package be.pxl.examen.dao;
+package be.pxl.examen.repository;
 
 import be.pxl.examen.model.Message;
 import org.junit.jupiter.api.BeforeEach;
@@ -19,7 +19,7 @@ public class MessageDaoTest {
 	private TestEntityManager testEntityManager;
 
 	@Autowired
-	private MessageDao messageDao;
+	private MessageRepository messageDao;
 
 	@BeforeEach
 	void init() {

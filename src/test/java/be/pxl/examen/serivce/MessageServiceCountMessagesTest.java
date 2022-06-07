@@ -1,6 +1,6 @@
 package be.pxl.examen.serivce;
 
-import be.pxl.examen.dao.MessageDao;
+import be.pxl.examen.repository.MessageRepository;
 import be.pxl.examen.service.MessageService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -15,7 +15,7 @@ import static org.mockito.Mockito.when;
 public class MessageServiceCountMessagesTest {
 
 	@Mock
-	private MessageDao messageDao;
+	private MessageRepository messageDao;
 	@InjectMocks
 	private MessageService messageService;
 

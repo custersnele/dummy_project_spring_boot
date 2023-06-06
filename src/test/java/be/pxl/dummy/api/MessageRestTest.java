@@ -1,7 +1,7 @@
-package be.pxl.examen.rest;
+package be.pxl.dummy.api;
 
-import be.pxl.examen.rest.resources.MessageDTO;
-import be.pxl.examen.service.MessageService;
+import be.pxl.dummy.api.resources.MessageDTO;
+import be.pxl.dummy.service.MessageService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-@ExtendWith(SpringExtension.class)
 @WebMvcTest(value = MessageRest.class)
 public class MessageRestTest {
 

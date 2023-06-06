@@ -1,6 +1,4 @@
-package be.pxl.examen.rest.resources;
-
-import be.pxl.examen.model.Message;
+package be.pxl.dummy.api.resources;
 
 public class MessageDTO {
 	private final Long id;

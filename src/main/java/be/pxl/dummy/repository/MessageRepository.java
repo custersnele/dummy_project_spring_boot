@@ -1,6 +1,6 @@
-package be.pxl.examen.repository;
+package be.pxl.dummy.repository;
 
-import be.pxl.examen.model.Message;
+import be.pxl.dummy.domain.Message;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

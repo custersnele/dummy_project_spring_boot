@@ -1,6 +1,6 @@
-package be.pxl.examen.repository;
+package be.pxl.dummy.repository;
 
-import be.pxl.examen.model.Message;
+import be.pxl.dummy.domain.Message;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,7 +12,9 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
-@DataJpaTest
+@DataJpaTest(properties = {
+		"spring.flyway.enabled=false",
+		"spring.jpa.hibernate.ddl-auto=create" })
 public class MessageRepositoryTest {
 
 	@Autowired

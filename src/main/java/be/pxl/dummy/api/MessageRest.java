@@ -1,8 +1,7 @@
-package be.pxl.examen.rest;
+package be.pxl.dummy.api;
 
-import be.pxl.examen.rest.resources.MessageDTO;
-import be.pxl.examen.service.MessageService;
-import org.springframework.beans.factory.annotation.Autowired;
+import be.pxl.dummy.api.resources.MessageDTO;
+import be.pxl.dummy.service.MessageService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

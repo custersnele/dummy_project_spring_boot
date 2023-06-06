@@ -1,10 +1,12 @@
 ## Demoproject voor dependencies
-Tijdens het examen is een startproject beschikbaar. Om er zeker van te zijn dat alle 3rd party
-libraries correct zijn gedownload voor je naar het examen komt kan je dit project downloaden en starten.
+Tijdens het examen is een startproject beschikbaar. Om er zeker van te zijn dat alle
+libraries correct zijn gedownload voor je naar het examen komt moet je dit project downloaden en starten.
 
 Wanneer je dit project opstart zal een h2 in-memory databank worden
-aangemaakt waarin data wordt toegevoegd (bestand data.sql).
-Het Rest endpoint GET http://localhost:8080/dependencies/messages
+aangemaakt met daarin de tabel message en sample data. De tabel en sample data worden aangemaakt door
+flyway.
+
+Het Rest endpoint GET http://localhost:8080/dummy/messages
 is beschikbaar na het opstarten van de toepassing en geeft de volgende boodschappen
 terug.
 `

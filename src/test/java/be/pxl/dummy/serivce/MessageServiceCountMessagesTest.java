@@ -1,7 +1,7 @@
-package be.pxl.examen.serivce;
+package be.pxl.dummy.serivce;
 
-import be.pxl.examen.repository.MessageRepository;
-import be.pxl.examen.service.MessageService;
+import be.pxl.dummy.repository.MessageRepository;
+import be.pxl.dummy.service.MessageService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
